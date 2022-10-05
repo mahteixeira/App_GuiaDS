@@ -5,12 +5,12 @@
     <ContentPage.Content>
         <StackLayout VerticalOptions="CenterAndExpand" Padding="10">
 
-            <Button Text="Ética e Cidadania Organizacional" Clicked="Btn_Etica"  Style="{ StaticResource BotaoPrincipal }" />
-            <Button Text="Desenvolvimento de Sistemas" Clicked="Btn_DS" Style="{ StaticResource BotaoPrincipal }" />
-            <Button Text="Banco de Dados II " Clicked="Btn_BDadosII" Style="{ StaticResource BotaoPrincipal }" />
-            <Button Text="Sistemas Embarcados" Clicked="Btn_SistEmb" Style="{ StaticResource BotaoPrincipal }" />
-            <Button Text="Programação de Aplicativos Mobile I " Clicked="Btn_MobI" Style="{ StaticResource BotaoPrincipal }" />
-            <Button Text="Programação Web II" Clicked="Btn_PWebII" Style="{ StaticResource BotaoPrincipal }" />
+            <Button Text="Ética e Cidadania Organizacional" Clicked="Btn_Etica"  Style="{ StaticResource BotaoCursos }" />
+            <Button Text="Desenvolvimento de Sistemas" Clicked="Btn_DS" Style="{ StaticResource BotaoCursos }" />
+            <Button Text="Banco de Dados II " Clicked="Btn_BDadosII" Style="{ StaticResource BotaoCursos }" />
+            <Button Text="Sistemas Embarcados" Clicked="Btn_SistEmb" Style="{ StaticResource BotaoCursos }" />
+            <Button Text="Programação de Aplicativos Mobile I " Clicked="Btn_MobI" Style="{ StaticResource BotaoCursos }" />
+            <Button Text="Programação Web II" Clicked="Btn_PWebII" Style="{ StaticResource BotaoCursos }" />
            
         </StackLayout>
     </ContentPage.Content>

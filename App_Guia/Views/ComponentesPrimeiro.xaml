@@ -4,13 +4,13 @@
              x:Class="App_Guia.Views.ComponentesPrimeiro">
     <ContentPage.Content>
         <StackLayout VerticalOptions="CenterAndExpand" Padding="10">
-          
-            <Button Text="Banco de Dados I" Clicked="Btn_BDadosI" Style="{ StaticResource BotaoPrincipal }" />
-            <Button Text="Análise e Projeto de Sistemas" Clicked="Btn_Analise" Style="{ StaticResource BotaoPrincipal }" />
-            <Button Text="Design Digital" Clicked="Btn_Design" Style="{ StaticResource BotaoPrincipal }" />
-            <Button Text="Programação Web I" Clicked="Btn_PWebI" Style="{ StaticResource BotaoPrincipal }" />
-            <Button Text="Fundamentos da Informática" Clicked="Btn_FundInf" Style="{ StaticResource BotaoPrincipal }" />
-            <Button Text="Técnicas de Programação e Algoritimos" Clicked="Btn_TecProAlg" Style="{ StaticResource BotaoPrincipal }" />
+
+            <Button Text="Banco de Dados I" Clicked="Btn_BDadosI" Style="{ StaticResource BotaoCursos }" />
+            <Button Text="Análise e Projeto de Sistemas" Clicked="Btn_Analise" Style="{ StaticResource BotaoCursos }" />
+            <Button Text="Design Digital" Clicked="Btn_Design" Style="{ StaticResource BotaoCursos }" />
+            <Button Text="Programação Web I" Clicked="Btn_PWebI" Style="{ StaticResource BotaoCursos }" />
+            <Button Text="Fundamentos da Informática" Clicked="Btn_FundInf" Style="{ StaticResource BotaoCursos }" />
+            <Button Text="Técnicas de Programação e Algoritimos" Clicked="Btn_TecProAlg" Style="{ StaticResource BotaoCursos }" />
         
         </StackLayout>
     </ContentPage.Content>

@@ -4,16 +4,34 @@
              x:Class="App_Guia.App">
     <Application.Resources>
         <ResourceDictionary>
+
             <Style x:Key="BotaoPrincipal" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="#fff"/>
+                <Setter Property="TextColor" Value="#AB0209"/>
+                <Setter Property="HorizontalOptions" Value="Start"/>
+                <Setter Property="FontSize" Value="18"/>
+                <Setter Property="MinimumWidthRequest" Value="200" />
+                <Setter Property="Margin" Value="0,20,0,0"/>
+            </Style>
+
+            <Style x:Key="BotaoCursos" TargetType="Button">
                 <Setter Property="BackgroundColor" Value="#AB0209"/>
                 <Setter Property="TextColor" Value="#FFF"/>
                 <Setter Property="CornerRadius" Value="5"/>
             </Style>
 
             <Style x:Key="BotaoSecundario" TargetType="Button">
-                <Setter Property="BackgroundColor" Value="#3E474C"/>
-                <Setter Property="TextColor" Value="#FFF"/>
-                <Setter Property="CornerRadius" Value="5"/>
+                <Setter Property="BackgroundColor" Value="#fff"/>
+                <Setter Property="TextColor" Value="#3E474C"/>
+                <Setter Property="HorizontalOptions" Value="Start"/>
+                <Setter Property="FontSize" Value="18"/>
+                <Setter Property="MinimumWidthRequest" Value="200" />
+                <Setter Property="Margin" Value="0,20,0,0"/>
+            </Style>
+
+            <Style TargetType="NavigationPage">
+                <Setter Property="BarBackgroundColor" Value="#fff" />
+                <Setter Property="BarTextColor" Value="Black" />
             </Style>
         </ResourceDictionary>
     </Application.Resources>
