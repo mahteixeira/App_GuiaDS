@@ -6,10 +6,16 @@
         <ResourceDictionary>
 
             <Style x:Key="BotaoPrincipal" TargetType="Button">
+                <Setter Property="FontFamily">
+                    <Setter.Value>
+                        <OnPlatform x:TypeArguments="x:String"
+                                    Android="fonte.otf#fonte" />
+                    </Setter.Value>
+                </Setter>
                 <Setter Property="BackgroundColor" Value="#fff"/>
                 <Setter Property="TextColor" Value="#AB0209"/>
                 <Setter Property="HorizontalOptions" Value="Start"/>
-                <Setter Property="FontSize" Value="18"/>
+                <Setter Property="FontSize" Value="20"/>
                 <Setter Property="MinimumWidthRequest" Value="200" />
                 <Setter Property="Margin" Value="0,20,0,0"/>
             </Style>
@@ -21,10 +27,16 @@
             </Style>
 
             <Style x:Key="BotaoSecundario" TargetType="Button">
+                <Setter Property="FontFamily">
+                    <Setter.Value>
+                        <OnPlatform x:TypeArguments="x:String"
+                                    Android="fonte.otf#fonte" />
+                    </Setter.Value>
+                </Setter>
                 <Setter Property="BackgroundColor" Value="#fff"/>
                 <Setter Property="TextColor" Value="#3E474C"/>
                 <Setter Property="HorizontalOptions" Value="Start"/>
-                <Setter Property="FontSize" Value="18"/>
+                <Setter Property="FontSize" Value="20"/>
                 <Setter Property="MinimumWidthRequest" Value="200" />
                 <Setter Property="Margin" Value="0,20,0,0"/>
             </Style>
@@ -33,6 +45,16 @@
                 <Setter Property="BarBackgroundColor" Value="#fff" />
                 <Setter Property="BarTextColor" Value="Black" />
             </Style>
+            
+            <Style x:Key="fonteCustomizada" TargetType="Label">
+                <Setter Property="FontFamily">
+                    <Setter.Value>
+                        <OnPlatform x:TypeArguments="x:String"
+                                    Android="fonte.otf#fonte" />
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
         </ResourceDictionary>
     </Application.Resources>
 </Application>
