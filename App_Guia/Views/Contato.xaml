@@ -1,23 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="App_Guia.Views.Contato">
+             x:Class="App_Guia.Views.Contato"
+             BackgroundColor="#fff">
     <ContentPage.Content>
         <StackLayout VerticalOptions="CenterAndExpand" Padding="10">
 
-            <Label Text="Etec Francisco Garcia"
+            <Label Text="Etec Joaquim Ferreira do Amaral"
                    FontSize="Title"
                    FontAttributes="Bold"
                     VerticalOptions="CenterAndExpand" 
                     HorizontalOptions="CenterAndExpand" />
 
-            <Label Text="Av. Dr. Américo Pereira Lima, nº 1507 - Mococa (SP)"
+            <Label Text="R. Humaitá, 1090 - Centro, Jaú - SP"
                     VerticalOptions="CenterAndExpand" 
                     HorizontalOptions="CenterAndExpand" />
 
-            <Button Text="Tel: (19) 3656-0052"
+            <Button Text="Tel: (14) 3622-3566"
                     Margin="10"
-                    Clicked="Button_Clicked" Style="{ StaticResource botaoVermelho }" />
+                    Clicked="Button_Clicked" Style="{ StaticResource BotaoPrincipal }" />
 
             <Label Text=""
                     VerticalOptions="CenterAndExpand" 

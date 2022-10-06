@@ -20,7 +20,7 @@ namespace App_Guia.Views
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            Device.OpenUri(new Uri("tel:014997151054"));
+            Device.OpenUri(new Uri("tel:01436223566"));
         }
     }
 }
