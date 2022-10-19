@@ -27,7 +27,9 @@ namespace App_Guia.Views
                 {
                     Nome = "Banco de Dados I",
                     AtribuicoesResponsabilidades = "Modelar banco de dados ",
-                    ValoresAtitudes = "Estimular a organização. • Fortalecer a persistência e o interesse na resolução de situações-problema. • Promover ações que considerem o respeito às normas estabelecidas."
+                    ValoresAtitudes = "• Estimular a organização. " +
+                    "\n \n• Fortalecer a persistência e o interesse na resolução de situações-problema. " +
+                    "\n \n• Promover ações que considerem o respeito às normas estabelecidas."
                 };
 
                 await Navigation.PushAsync(new VerComponente(c));
@@ -46,7 +48,9 @@ namespace App_Guia.Views
                 {
                     Nome = "Análise e Projeto de Sistemas",
                     AtribuicoesResponsabilidades = "Elaborar projetos de sistema de informação.  ",
-                    ValoresAtitudes = "Estimular a organização. • Incentivar a criatividade. • Fortalecer a persistência e o interesse na resolução de situações-problema.  "
+                    ValoresAtitudes = "• Estimular a organização." +
+                    "\n \n• Incentivar a criatividade. " +
+                    "\n \n• Fortalecer a persistência e o interesse na resolução de situações-problema.  "
                 };
 
                 await Navigation.PushAsync(new VerComponente(c));
@@ -66,7 +70,9 @@ namespace App_Guia.Views
                 {
                     Nome = "Design Digital",
                     AtribuicoesResponsabilidades = "Desenvolver elementos gráficos para aplicativos e sites.  ",
-                    ValoresAtitudes = "Incentivar a criatividade. • Respeitar as manifestações culturais de outros povos. • Incentivar ações que promovam a cooperação. "
+                    ValoresAtitudes = "• Incentivar a criatividade. " +
+                    "\n \n• Respeitar as manifestações culturais de outros povos. " +
+                    "\n \n• Incentivar ações que promovam a cooperação. "
                 };
 
                 await Navigation.PushAsync(new VerComponente(c));
@@ -85,7 +91,9 @@ namespace App_Guia.Views
                 {
                     Nome = "Programação Web I",
                     AtribuicoesResponsabilidades = "Desenvolver sites para Web ",
-                    ValoresAtitudes = "Incentivar a criatividade. • Estimular a organização. • Fortalecer a persistência e o interesse na resolução de situações-problema.  "
+                    ValoresAtitudes = "• Incentivar a criatividade. " +
+                    "\n \n• Estimular a organização. " +
+                    "\n \n• Fortalecer a persistência e o interesse na resolução de situações-problema.  "
                 };
 
                 await Navigation.PushAsync(new VerComponente(c));
@@ -104,7 +112,9 @@ namespace App_Guia.Views
                 {
                     Nome = "Fundamentos da Informática",
                     AtribuicoesResponsabilidades = "Operar sistemas computacionais.  ",
-                    ValoresAtitudes = "Desenvolver a criticidade. • Incentivar comportamentos éticos. • Promover ações que considerem o respeito às normas estabelecidas.  "
+                    ValoresAtitudes = "• Desenvolver a criticidade. " +
+                    "\n \n• Incentivar comportamentos éticos. " +
+                    "\n \n• Promover ações que considerem o respeito às normas estabelecidas.  "
                 };
 
                 await Navigation.PushAsync(new VerComponente(c));
@@ -122,8 +132,10 @@ namespace App_Guia.Views
                 var c = new Componente
                 {
                     Nome = "Técnicas de Programação e Algoritimo",
-                    AtribuicoesResponsabilidades = "Desenvolver programas de computador, utilizando princípios de boas práticas. • Realizar versionamento no desenvolvimento de programas.  • Verificar usabilidade no desenvolvimento de programas.  ",
-                    ValoresAtitudes = "Incentivar a criatividade. • Incentivar comportamentos éticos. • Fortalecer a persistência e o interesse na resolução de situações-problema. "
+                    AtribuicoesResponsabilidades = "Desenvolver programas de computador, utilizando princípios de boas práticas. • Realizar versionamento no desenvolvimento de programas. Verificar usabilidade no desenvolvimento de programas.  ",
+                    ValoresAtitudes = "• Incentivar a criatividade. " +
+                    "\n \n• Incentivar comportamentos éticos. " +
+                    "\n \n• Fortalecer a persistência e o interesse na resolução de situações-problema. "
                 };
 
                 await Navigation.PushAsync(new VerComponente(c));

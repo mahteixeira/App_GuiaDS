@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="App_Guia.MainPage">
+             x:Class="App_Guia.MainPage"
+             Title="Bem Vindo!!" BackgroundColor="#fff" >
     <MasterDetailPage.Master>
         <ContentPage Title="Menu">
             <Grid BackgroundColor="#fff">
@@ -14,17 +15,17 @@
                 <StackLayout Grid.Row="0" Spacing="10" Margin="10,10,10,10" Padding="10" BackgroundColor="#fff">
                     <Label Text="Saiba mais..." Style="{StaticResource fonteCustomizada}" FontSize="40" TextColor="#000"/>
 
-                    <Button Text="◦ Inicial" Clicked="Open_Inicial" Style="{ StaticResource BotaoPrincipal}" Margin="0,30,0,0"/>
+                    <Button Text="• Inicial" Clicked="Open_Inicial" Style="{ StaticResource BotaoPrincipal}" Margin="0,30,0,0"/>
 
-                    <Button Text="◦ Primeiro Ano" Clicked="Open_PrimeiroAno" Style="{ StaticResource BotaoSecundario}"/>
+                    <Button Text="• Primeiro Ano" Clicked="Open_PrimeiroAno" Style="{ StaticResource BotaoSecundario}"/>
 
-                    <Button Text="◦ Segundo Ano" Clicked="Open_SegundoAno" Style="{ StaticResource BotaoSecundario}"/>
+                    <Button Text="• Segundo Ano" Clicked="Open_SegundoAno" Style="{ StaticResource BotaoSecundario}"/>
 
-                    <Button Text="◦ Terceiro Ano" Clicked="Open_TerceiroAno" Style="{ StaticResource BotaoSecundario}"/>
+                    <Button Text="• Terceiro Ano" Clicked="Open_TerceiroAno" Style="{ StaticResource BotaoSecundario}"/>
 
-                    <Button Text="◦ Vestibulinho" Clicked="Open_Vestibulinho" Style="{ StaticResource BotaoPrincipal}"/>
+                    <Button Text="• Vestibulinho" Clicked="Open_Vestibulinho" Style="{ StaticResource BotaoPrincipal}"/>
 
-                    <Button Text="◦ Contato" Clicked="Open_Contato" Style="{ StaticResource BotaoPrincipal}"/>
+                    <Button Text="• Contato" Clicked="Open_Contato" Style="{ StaticResource BotaoPrincipal}"/>
                 </StackLayout>
 
                 <StackLayout Grid.Row="1"

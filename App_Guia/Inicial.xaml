@@ -25,13 +25,6 @@
             </StackLayout>
             -->
 
-            <Label Text="Nesse aplicativo feito por nós mesmos, você vai poder explorar mais pelos detalhes do nosso lindo curso!!!"
-                   FontSize="15.5" 
-                    />
-
-            <Label Text="Como o nosso curso é integrado ao Ensino Médio, ele possui a duração de 3 anos. O curso tem como objetivo de construir softwares, codificar e depurar programas, desenvolver sistemas, projetar, implementar e utulizar bancos de dados, etc..."
-                   FontSize="15.5"
-                   />
 
         </ScrollView>
     </ContentPage.Content>

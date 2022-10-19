@@ -4,29 +4,30 @@
              x:Class="App_Guia.Views.Contato"
              BackgroundColor="#fff">
     <ContentPage.Content>
-        <StackLayout VerticalOptions="CenterAndExpand" Padding="10">
+        <StackLayout Padding="10">
 
-            <Label Text="Etec Joaquim Ferreira do Amaral"
-                   FontSize="Title"
-                   FontAttributes="Bold"
-                    VerticalOptions="CenterAndExpand" 
-                    HorizontalOptions="CenterAndExpand" />
+            <Label Text="ETEC Joaquim Ferreira do Amaral"
+                   FontSize="40"
+                   Style="{StaticResource fonteCustomizada}"
+                   TextColor="#000" Margin="0,10,0,0"
+                    HorizontalTextAlignment="Center" />
 
-            <Label Text="R. Humaitá, 1090 - Centro, Jaú - SP"
-                    VerticalOptions="CenterAndExpand" 
-                    HorizontalOptions="CenterAndExpand" />
+            <Label Text="R. Humaitá, 1090 - Centro, Jaú - SP" 
+                    HorizontalTextAlignment="Center" 
+                   Margin="0,30,0,0" FontSize="16"
+                   Style="{StaticResource fonteCustomizada}"/>
 
-            <Button Text="Tel: (14) 3622-3566"
-                    Margin="10"
-                    Clicked="Button_Clicked" Style="{ StaticResource BotaoPrincipal }" />
+            <Button Text="Tel: (14) 3622-3566" HorizontalOptions="Center" Margin="0,120,0,0"
+                    Clicked="Button_Clicked" Style="{ StaticResource BotaoCursos }"
+                    FontSize="30"/>
 
             <Label Text=""
                     VerticalOptions="CenterAndExpand" 
                     HorizontalOptions="CenterAndExpand" />
 
-            <Label Text="E-mail: e060dir@cps.sp.gov.br"
-                    VerticalOptions="CenterAndExpand" 
-                    HorizontalOptions="CenterAndExpand" />
+            <Label Text="E-mail: e070dir@cps.sp.gov.br"
+                    HorizontalTextAlignment="Center" FontSize="16" 
+                   Margin="0,0,0,200" Style="{StaticResource fonteCustomizada}"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
