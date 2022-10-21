@@ -6,26 +6,23 @@
              >
     <ContentPage.Content>
 
-        <ScrollView>
-            <!--
-            <StackLayout Padding="10">
-                <CarouselView ItemsSource="{Binding ImageList_}">
-                    <CarouselView.ItemTemplate>
-                        <DataTemplate>
-                            <StackLayout>
-                                <Frame Margin="5" Padding="5" HasShadow="True">
-                                    <Image Source="{Binding }" Aspect="AspectFill"/>
-                                </Frame>
-                            </StackLayout>
-                        </DataTemplate>
-                    </CarouselView.ItemTemplate>
-                </CarouselView>
-                
+        <Grid RowDefinitions="200,*,*,*">
+            <CarouselView Margin="0" IsBounceEnabled="True" ItemsSource="{Binding ImageCollection}" 
+                          IndicatorView="indicatorView">
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid HorizontalOptions="FillAndExpand">
+                            <Image Source="{Binding _Image}" Aspect="AspectFill" 
+                                   HorizontalOptions="FillAndExpand"/>
+                        </Grid>
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
+            <IndicatorView Grid.Row="1" Margin="0,-140,0,0" 
+                           x:Name="indicatorView" IndicatorColor="Gray" 
+                           SelectedIndicatorColor="#AB0209" HorizontalOptions="Center"/>
+        </Grid>
 
-            </StackLayout>
-            -->
-
-
-        </ScrollView>
+        <Label Text="Olá!!"/>
     </ContentPage.Content>
 </ContentPage>
