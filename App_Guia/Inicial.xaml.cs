@@ -34,7 +34,11 @@ namespace App_Guia
             {
                 new ImageInformation{ _Image ="Imagens/foto1.png" },
                 new ImageInformation{ _Image ="Imagens/foto2.png" },
-                new ImageInformation{ _Image ="Imagens/foto3.png" }
+                new ImageInformation{ _Image ="Imagens/foto3.png" },
+		    new ImageInformation{ _Image ="Imagens/foto4.png" },
+		    new ImageInformation{ _Image ="Imagens/foto5.png" },
+		    new ImageInformation{ _Image ="Imagens/foto6.png" },
+		    new ImageInformation{ _Image ="Imagens/foto7.png" }
             };
         }
     }
